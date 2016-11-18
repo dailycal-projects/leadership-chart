@@ -1,0 +1,223 @@
+---
+layout: default
+---
+<div class="container graphic-container">
+  <div class="row graphic-top">
+    <div class="col-md-8 offset-md-2">
+      <h1>Administrative Turnover</h1>
+      <p class="byline">By <a href="http://www.dailycal.org/author/schinoy">SAHIL CHINOY</a> &middot; November 21, 2016</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div style="text-align: right;" class="col-xs-2">
+      <btn class="btn btn-secondary" style="height: 100px;" onclick="previous()">&lsaquo;</btn>
+    </div>
+    <div style="text-align: center;" class="desc-wrapper col-xs-8">
+      <p id="desc"></p>
+    </div>
+    <div style="text-align: left;" class="col-xs-2">
+      <btn class="btn btn-secondary" style="height: 100px;" onclick="next()">&rsaquo;</btn>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
+      {% include chart.svg %}
+    </div>
+  </div>
+    
+  </div>
+
+</div>
+
+
+<script type="text/javascript">
+/*
+ * Wrap a block of SVG text to a given width
+ * adapted from http://bl.ocks.org/mbostock/7555321
+ */
+var wrapText = function(texts, width, lineHeight) {
+    texts.each(function() {
+        var text = d3.select(this);
+        var words = text.text().split(/\s+/).reverse();
+
+        var word = null;
+        var line = [];
+        var lineNumber = 0;
+
+        var x = text.attr('x');
+        var y = text.attr('y');
+
+        var dx = text.attr('dx') ? parseFloat(text.attr('dx')) : 0;
+        var dy = text.attr('dy') ? parseFloat(text.attr('dy')) : 0;
+
+        var tspan = text.text(null)
+            .append('tspan')
+            .attr('x', x)
+            .attr('y', y)
+            .attr('dx', dx + 'px')
+            .attr('dy', dy + 'px');
+
+        while (word = words.pop()) {
+            line.push(word);
+            tspan.text(line.join(' '));
+
+            if (tspan.node().getComputedTextLength() > width) {
+                line.pop();
+                tspan.text(line.join(' '));
+                line = [word];
+
+                lineNumber += 1;
+
+                tspan = text.append('tspan')
+                    .attr('x', x)
+                    .attr('y', y)
+                    .attr('dx', dx + 'px')
+                    .attr('dy', lineNumber * lineHeight)
+                    .attr('text-anchor', 'begin')
+                    .text(word);
+            }
+        }
+    });
+}
+
+var data = {% include data.json %}
+
+// Globals
+
+var highlightColor = '#f39075',
+    activeColor = '#B2C9FF',
+    defaultColor = '#fffaed';
+
+function initialize() {
+  _.forEach(data["1"]['positions'], function(val, key) {
+
+    d3.select('#' + key + '-title').attr('display','none');
+    d3.select('#' + key + '-name').attr('display','none');
+    
+    var rect = d3.select('#' + key + '-rect');
+    rect.attr('fill', defaultColor);
+    var width = rect.attr('width') - 40;
+
+    var x = parseFloat(rect.attr('x'));
+    var y = parseFloat(rect.attr('y'));
+    var height = parseFloat(rect.attr('height'));
+
+    var title = d3.select('#' + key)
+      .append('text')
+      .attr('x',x+20)
+      .attr('y',y+30)
+      .attr('id', key + '-title-2')
+      .classed('text-bold', true);
+
+    wrapText(title, width, '30px');
+
+    var name = d3.select('#' + key)
+      .append('text')
+      .text(val['name'])
+      .attr('x',x+20)
+      .attr('y',y+height-20)
+      .attr('id', key + '-name-2');
+  });
+}
+
+initialize();
+
+function loadFrame(index) {
+  // Update labels
+  $('#current-index').html(index);
+  var date = data[index.toString()]['date'];
+
+  var html = ''
+  if (date) {
+    html = html + '<b>' + date + ':</b> ';
+  }
+
+  html = html + data[index.toString()]['desc'];
+
+  var link = data[index.toString()]['link'];
+  if (link) {
+    html = html + ' <a href="' + link + '">Read more &raquo;</a>';
+  }
+  
+  $('#desc').html(html);
+
+  _.forEach(data[index.toString()]['positions'], function(val, key) {
+
+    d3.select('#' + key + '-title').attr('display','none');
+    d3.select('#' + key + '-name').attr('display','none');
+    
+    var rect = d3.select('#' + key + '-rect');
+    var width = rect.attr('width') - 40;
+
+    var x = parseFloat(rect.attr('x'));
+    var y = parseFloat(rect.attr('y'));
+    var height = parseFloat(rect.attr('height'));
+
+    var title = d3.select('#' + key + '-title-2')
+      .text(val['title'])
+
+    wrapText(title, width, 20);
+
+    var name = d3.select('#' + key + '-name-2')
+      .text(val['name'])
+
+    if (val['rect'] == 'highlight') {
+      rect.transition().duration(800).attr('fill', highlightColor).attr('opacity', 1);
+      title.attr('fill', '#000');
+    } else if (val['rect'] == 'active') {
+      rect.transition().duration(800).attr('fill', activeColor).attr('opacity', 1);
+      title.attr('fill', '#000');
+    } else if (val['rect'] == 'inactive') {
+      rect.attr('fill', defaultColor).attr('opacity', 0.1);
+      title.attr('fill', '#e5e5e5');
+    } else {
+      rect.attr('fill', defaultColor).attr('opacity', 1);
+      title.attr('fill', '#000');
+    }
+  });
+  return true;
+}
+
+var currentIndex = 1;
+var frameCount = Object.keys(data).length;
+$("#total-frames").html(frameCount);
+
+loadFrame(currentIndex);
+
+function previous() {
+  if (currentIndex > 1) {
+    currentIndex = currentIndex - 1;
+    loadFrame(currentIndex);
+    return true;
+  } else {
+    return false;
+  }
+}
+function next() {
+  if (currentIndex < frameCount) {
+    currentIndex = currentIndex + 1;
+    loadFrame(currentIndex);
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// Set up keyboard event listener
+document.onkeydown = checkKey;
+function checkKey(e) {
+    e = e || window.event;
+
+    if (e.keyCode == '37') {
+       // left arrow
+       previous();
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       next();
+    }
+}
+
+</script>

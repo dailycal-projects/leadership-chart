@@ -1,0 +1,1797 @@
+{
+	"1": {
+		"desc": "UC Berkeley has seen changes in 12 of its top administrative staff in the last 19 months. <a href=''>Related article &raquo;</a>",
+		"date": "",
+		"link": "",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "",
+				"rect": "active",
+			},
+			"evcp": {
+				"title": "Executive Vice Chancellor and Provost",
+				"name": "",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for Development & Alumni Relations",
+				"name": "",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "",
+				"rect": "active",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "",
+				"rect": "",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "",
+				"rect": "active",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "",
+				"rect": "",
+			}
+		}		
+	},
+	"2": {
+		"desc": "Vice Chancellor for Research Graham Fleming resigns after allegations arose that he sexually harassed a former campus employee. Paul Alivisatos succeeds him.",
+		"date": "April 2015",
+		"link": "http://www.dailycal.org/2015/04/12/uc-berkeley-vice-chancellor-for-research-resigns-after-sexual-harassment-allegations/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Executive Vice Chancellor and Provost",
+				"name": "Claude Steele",
+				"rect": "",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Gibor Basri",
+				"rect": "",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Strategic Academic and Facilities Planning",
+				"name": "Andrew Szeri",
+				"rect": "",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "",
+				"rect": "",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Relations",
+				"name": "Scott Biddy",
+				"rect": "",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "highlight",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "John Wilton",
+				"rect": "",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "inactive",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+	"3": {
+		"desc": "Vice Chancellor for Equity and Inclusion Gibor Basri resigns. Na’ilah Nasir succeeds him.",
+		"date": "September 2015",
+		"link": "http://www.dailycal.org/2014/09/29/gibor-basri-vice-chancellor-equity-inclusion-step-end-academic-year/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Executive Vice Chancellor and Provost",
+				"name": "Claude Steele",
+				"rect": "",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "highlight",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Strategic Academic and Facilities Planning",
+				"name": "Andrew Szeri",
+				"rect": "",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "",
+				"rect": "",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Relations",
+				"name": "Scott Biddy",
+				"rect": "",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "John Wilton",
+				"rect": "",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "inactive",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"4": {
+		"desc": "Vice Chancellor for University Relations Scott Biddy becomes Vice Chancellor. Julie Hooper is appointed to fill his vacancy in December.",
+		"link": "http://www.dailycal.org/2014/07/08/new-associate-vice-chancellor-begins-term-uc-berkeley/",
+		"date": "October 2015",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Executive Vice Chancellor and Provost",
+				"name": "Claude Steele",
+				"rect": "",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Strategic Academic and Facilities Planning",
+				"name": "Andrew Szeri",
+				"rect": "",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "highlight",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "highlight",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "John Wilton",
+				"rect": "",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "inactive",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"5": {
+		"desc": "Vice Chancellor for Administration and Finance John Wilton resigns as his plans to resolve the campus’s financial stability face criticism. This position remains vacant.",
+		"date": "January 2016",
+		"link": "http://www.dailycal.org/2016/01/13/john-wilton-step-vice-chancellor-administration-finance/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Executive Vice Chancellor and Provost",
+				"name": "Claude Steele",
+				"rect": "",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Strategic Academic and Facilities Planning",
+				"name": "Andrew Szeri",
+				"rect": "",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "highlight",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "inactive",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"6": {
+		"desc": "Executive Vice Chancellor and Provost Claude Steele resigns amid widespread condemnation of his handling sexual misconduct cases. The position is being held by Carol Christ.",
+		"date": "April 2016",
+		"link": "http://www.dailycal.org/2016/04/18/campus-community-reacts-claude-steeles-resignation-statement/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "highlight",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Strategic Academic and Facilities Planning",
+				"name": "Andrew Szeri",
+				"rect": "",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "inactive",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"7": {
+		"desc": "Vice Provost Strategic Academic and Facilities Planning Andrew Szeri resigns after widespread criticism of the Office of Strategic Initiatives, which sought to stabilize campus’s $150 million annual structural deficit.",
+		"date": "June 2016",
+		"link": "http://www.dailycal.org/2016/06/19/andrew-szeri-resigns-position-vice-provost-strategic-academic-facilities-planning/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "highlight",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "",
+				"rect": "inactive",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"8": {
+		"desc": "Associate Chancellor and Campus Chief Ethics, Risk and Compliance Officer Khira Griscavage joins campus. She is the first person to hold the position.",
+		"date": "June 2016",
+		"link": "",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Janet Broughton",
+				"rect": "",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "highlight",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"9": {
+		"desc": "Vice Provost for the Faculty Janet Broughton retires after serving for five years in this role. Benjamin Hermalin succeeds her.",
+		"date": "June 2016",
+		"link": "http://www.dailycal.org/2016/03/10/chair-academic-senate-benjamin-hermalin-appointed-campus-vice-provost-faculty/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "highlight",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande",
+				"rect": "",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"10": {
+		"desc": "Vice Chancellor for Student Affairs Harry Le Grande announces retirement after 35 years on campus. Stephen Sutton will succeed him effective January 2017.",
+		"date": "August 2016",
+		"link": "http://www.dailycal.org/2016/08/03/harry-le-grande-to-retire-as-vice-chancellor-of-student-affairs/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "highlight",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"11": {
+		"desc": "Chancellor Nicholas Dirks resigns amid several high-profile controversies. UC President Napolitano plans to nominate a new chancellor this spring.",
+		"date": "August 2016",
+		"link": "http://www.dailycal.org/2016/08/16/chancellor-dirks-to-resign-after-end-of-this-academic-school-year/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks*",
+				"rect": "highlight",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"12": {
+		"desc": "Associate Vice Chancellor, Communications and Public Affairs Claire Holmes resigns. The position remains vacant.",
+		"date": "September 2016",
+		"link": "",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks*",
+				"rect": "active",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes*",
+				"rect": "highlight",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"13": {
+		"desc": "Vice Chancellor for Real Estate Bob Lalanne resigns after his position is eliminated by campus officials.",
+		"date": "October 2016",
+		"link": "http://www.dailycal.org/2016/10/24/campus-leadership-prompted-vice-chancellor-bob-lalannes-resignation/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks*",
+				"rect": "active",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes*",
+				"rect": "active",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "",
+				"rect": "highlight",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"14": {
+		"desc": "Vice Chancellor Scott Biddy’s resignation, which has yet to be announced to the campus, was confirmed in an email to the Daily Californian. He plans to depart campus September 2017.",
+		"date": "",
+		"link": "",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks*",
+				"rect": "active",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "",
+				"rect": "highlight",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes*",
+				"rect": "active",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "",
+				"rect": "inactive",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+}

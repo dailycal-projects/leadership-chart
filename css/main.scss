@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "bootstrap",
+  "dc",
+  "graphic",
+  "bootstrap-select"
+;
+
+.footnotes p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.desc-wrapper {
+  height: 100px;
+  padding: 10px;
+  background: #e3e3e3;
+}
+
+.btn {
+  line-height: 4.5;
+}
+
+.text-bold {
+  font-family:'Helvetica-Bold';
+}

@@ -1,0 +1,26 @@
+.navbar-dc {
+	background: #000;
+	border-radius: 0;
+
+	a {
+		color: #fff;
+	}
+
+	.navbar-brand {
+		font-family: 'Georgia', sans-serif;
+		font-variant: small-caps;
+	}
+}
+
+.footer {
+	background: #000;
+	color: #fff;
+	padding-top: 20px;
+	font-size: 14px;
+	font-weight: 300;
+
+	a {
+		font-weight: 600;
+		color: #fff;
+	}
+}
