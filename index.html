@@ -1,23 +1,25 @@
 ---
 layout: default
+title: Change in the Cabinet
 ---
 <div class="container graphic-container">
   <div class="row graphic-top">
     <div class="col-md-8 offset-md-2">
-      <h1>Administrative Turnover</h1>
+      <h1>Change in the Cabinet</h1>
       <p class="byline">By <a href="http://www.dailycal.org/author/schinoy">SAHIL CHINOY</a> &middot; November 21, 2016</p>
+      <p><b>Related article:</b> <a href="">Administrative Exodus</a></p>
     </div>
   </div>
 
   <div class="row">
     <div style="text-align: right;" class="col-xs-2">
-      <btn class="btn btn-secondary" style="height: 100px;" onclick="previous()">&lsaquo;</btn>
+      <btn id="prev-btn" class="btn btn-secondary disabled" onclick="previous()">&lsaquo;</btn>
     </div>
     <div style="text-align: center;" class="desc-wrapper col-xs-8">
       <p id="desc"></p>
     </div>
     <div style="text-align: left;" class="col-xs-2">
-      <btn class="btn btn-secondary" style="height: 100px;" onclick="next()">&rsaquo;</btn>
+      <btn id="next-btn" class="btn btn-secondary" onclick="next()">&rsaquo;</btn>
     </div>
   </div>
 
@@ -82,13 +84,23 @@ var wrapText = function(texts, width, lineHeight) {
     });
 }
 
-var data = {% include data.json %}
-
 // Globals
 
+var data = {% include data.json %}
+var isMobile = false;
 var highlightColor = '#f39075',
     activeColor = '#B2C9FF',
     defaultColor = '#fffaed';
+
+function checkMobile() {
+  if ($(window).width() < 800) {
+    isMobile = true;
+  } else {
+    isMobile = false;
+  }
+}
+checkMobile();
+$(window).onresize = checkMobile
 
 function initialize() {
   _.forEach(data["1"]['positions'], function(val, key) {
@@ -115,7 +127,6 @@ function initialize() {
 
     var name = d3.select('#' + key)
       .append('text')
-      .text(val['name'])
       .attr('x',x+20)
       .attr('y',y+height-20)
       .attr('id', key + '-name-2');
@@ -155,27 +166,35 @@ function loadFrame(index) {
     var y = parseFloat(rect.attr('y'));
     var height = parseFloat(rect.attr('height'));
 
-    var title = d3.select('#' + key + '-title-2')
-      .text(val['title'])
+    // No text on mobile
+    if (!isMobile) {
+      var title = d3.select('#' + key + '-title-2')
+        .text(val['title'])
 
-    wrapText(title, width, 20);
+      wrapText(title, width, 20);
 
-    var name = d3.select('#' + key + '-name-2')
-      .text(val['name'])
+      var name = d3.select('#' + key + '-name-2')
+        .text(val['name'])
+    } else {
+      d3.select('#legend').attr('display','none');
+    }
 
     if (val['rect'] == 'highlight') {
-      rect.transition().duration(800).attr('fill', highlightColor).attr('opacity', 1);
-      title.attr('fill', '#000');
+      rect.transition().duration(800).attr('fill', highlightColor);
     } else if (val['rect'] == 'active') {
-      rect.transition().duration(800).attr('fill', activeColor).attr('opacity', 1);
-      title.attr('fill', '#000');
-    } else if (val['rect'] == 'inactive') {
-      rect.attr('fill', defaultColor).attr('opacity', 0.1);
-      title.attr('fill', '#e5e5e5');
+      rect.transition().duration(800).attr('fill', activeColor);
     } else {
       rect.attr('fill', defaultColor).attr('opacity', 1);
-      title.attr('fill', '#000');
     }
+
+    if (val['rect'] == 'inactive') {
+      rect.attr('opacity', 0.1);
+      if(!isMobile) { title.attr('fill', '#e5e5e5'); }
+    } else {
+      rect.attr('opacity', 1);
+      if(!isMobile) { title.attr('fill', '#000'); }
+    }
+
   });
   return true;
 }
@@ -186,23 +205,36 @@ $("#total-frames").html(frameCount);
 
 loadFrame(currentIndex);
 
+var prevBtn = $('#prev-btn');
+var nextBtn = $('#next-btn');
+
+function enableButtons() {
+  if (currentIndex == 1) {
+    prevBtn.addClass('disabled');
+    nextBtn.removeClass('disabled');
+  } else if (currentIndex == frameCount) {
+    prevBtn.removeClass('disabled');
+    nextBtn.addClass('disabled');
+  } else {
+    prevBtn.removeClass('disabled');
+    nextBtn.removeClass('disabled');
+  }
+}
+
 function previous() {
   if (currentIndex > 1) {
     currentIndex = currentIndex - 1;
     loadFrame(currentIndex);
-    return true;
-  } else {
-    return false;
   }
+  enableButtons();
 }
+
 function next() {
   if (currentIndex < frameCount) {
     currentIndex = currentIndex + 1;
     loadFrame(currentIndex);
-    return true;
-  } else {
-    return false;
   }
+  enableButtons();
 }
 
 // Set up keyboard event listener

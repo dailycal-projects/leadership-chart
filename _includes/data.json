@@ -1,6 +1,6 @@
 {
 	"1": {
-		"desc": "UC Berkeley has seen changes in 12 of its top administrative staff in the last 19 months. <a href=''>Related article &raquo;</a>",
+		"desc": "UC Berkeley has seen changes in half of the chancellor's cabinet — 12 top administrative positions — since April 2015. Several positions are currently vacant and other key administrators have announced their resignation.",
 		"date": "",
 		"link": "",
 		"positions": {
@@ -643,7 +643,7 @@
 	},
 
 	"6": {
-		"desc": "Executive Vice Chancellor and Provost Claude Steele resigns amid widespread condemnation of his handling sexual misconduct cases. The position is being held by Carol Christ.",
+		"desc": "Executive Vice Chancellor and Provost Claude Steele resigns amid widespread condemnation of his handling of sexual misconduct cases. The position is being held by Carol Christ.",
 		"date": "April 2016",
 		"link": "http://www.dailycal.org/2016/04/18/campus-community-reacts-claude-steeles-resignation-statement/",
 		"positions": {
@@ -1155,7 +1155,7 @@
 	},
 
 	"10": {
-		"desc": "Vice Chancellor for Student Affairs Harry Le Grande announces retirement after 35 years on campus. Stephen Sutton will succeed him effective January 2017.",
+		"desc": "Vice Chancellor for Student Affairs Harry Le Grande announces his retirement after 35 years on campus. Stephen Sutton will succeed him effective January 2017.",
 		"date": "August 2016",
 		"link": "http://www.dailycal.org/2016/08/03/harry-le-grande-to-retire-as-vice-chancellor-of-student-affairs/",
 		"positions": {
@@ -1409,9 +1409,8 @@
 			}
 		}	
 	},
-
 	"12": {
-		"desc": "Associate Vice Chancellor, Communications and Public Affairs Claire Holmes resigns. The position remains vacant.",
+		"desc": "Associate Vice Chancellor for Communications and Public Affairs Claire Holmes resigns. The position remains vacant.",
 		"date": "September 2016",
 		"link": "",
 		"positions": {
@@ -1537,7 +1536,6 @@
 			}
 		}	
 	},
-
 	"13": {
 		"desc": "Vice Chancellor for Real Estate Bob Lalanne resigns after his position is eliminated by campus officials.",
 		"date": "October 2016",
@@ -1665,7 +1663,6 @@
 			}
 		}	
 	},
-
 	"14": {
 		"desc": "Vice Chancellor Scott Biddy’s resignation, which has yet to be announced to the campus, was confirmed in an email to the Daily Californian. He plans to depart campus September 2017.",
 		"date": "",
@@ -1792,6 +1789,5 @@
 				"rect": "",
 			}
 		}	
-	},
-
+	}
 }

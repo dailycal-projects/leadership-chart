@@ -7,14 +7,8 @@
 @import
   "bootstrap",
   "dc",
-  "graphic",
-  "bootstrap-select"
+  "graphic"
 ;
-
-.footnotes p {
-  text-align: center;
-  font-size: 0.8rem;
-}
 
 .desc-wrapper {
   height: 100px;
@@ -23,9 +17,42 @@
 }
 
 .btn {
+  height: 100px;
   line-height: 4.5;
 }
 
 .text-bold {
   font-family:'Helvetica-Bold';
+}
+
+@media (max-width: 75em) {
+  .desc-wrapper {
+    height: 140px;
+  }
+  .btn {
+    height: 140px;
+    line-height: 6;
+  }
+}
+
+@media (max-width: 62em) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .desc-wrapper {
+    height: 140px;
+  }
+  .btn {
+    height: 140px;
+    line-height: 6;
+  }
+}
+
+@media (max-width: 34em) {
+  p {
+    font-size: 0.7rem;
+  }
 }
