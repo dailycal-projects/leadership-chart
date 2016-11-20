@@ -5,9 +5,9 @@ title: Change in the Cabinet
 <div class="container graphic-container">
   <div class="row graphic-top">
     <div class="col-md-8 offset-md-2">
-      <h1>Change in the Cabinet</h1>
+      <h1>{{ page.title }}</h1>
       <p class="byline">By <a href="http://www.dailycal.org/author/schinoy">SAHIL CHINOY</a> &middot; November 21, 2016</p>
-      <p><b>Related article:</b> <a href="">Administrative Exodus</a></p>
+      <p><b>Related story:</b> <a href="">Administrative Exodus</a></p>
     </div>
   </div>
 
@@ -24,8 +24,15 @@ title: Change in the Cabinet
   </div>
 
   <div class="row">
-    <div class="col-md-10 offset-md-1">
+    <div class="col-md-12">
       {% include chart.svg %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <hr>
+      <p>Text credit: <a href="http://www.dailycal.org/author/aiscoe/">Adam Iscoe</a></p>
     </div>
   </div>
     
@@ -149,7 +156,7 @@ function loadFrame(index) {
 
   var link = data[index.toString()]['link'];
   if (link) {
-    html = html + ' <a href="' + link + '">Read more &raquo;</a>';
+    html = html + ' <a target="_blank" href="' + link + '">Read more &raquo;</a>';
   }
   
   $('#desc').html(html);

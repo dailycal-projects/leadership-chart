@@ -1,6 +1,6 @@
 {
 	"1": {
-		"desc": "UC Berkeley has seen changes in half of the chancellor's cabinet — 12 top administrative positions — since April 2015. Several positions are currently vacant and other key administrators have announced their resignation.",
+		"desc": "UC Berkeley has seen changes in half of the chancellor's cabinet — 11 top administrative positions — since April 2015. Several positions are currently vacant and other key administrators have announced their resignation.",
 		"date": "",
 		"link": "",
 		"positions": {
@@ -112,7 +112,7 @@
 			"vcre": {
 				"title": "Vice Chancellor for Real Estate",
 				"name": "",
-				"rect": "active",
+				"rect": "inactive",
 			},
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
@@ -1712,6 +1712,133 @@
 				"title": "Vice Chancellor",
 				"name": "",
 				"rect": "highlight",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes*",
+				"rect": "active",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "",
+				"rect": "inactive",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond",
+				"rect": "",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+	"15": {
+		"desc": "“We’re all waiting to see what happens when the dust settles,” said campus public policy professor Michael O’Hare. “Are we going to be happier? No one knows.”",
+		"date": "",
+		"link": "",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks*",
+				"rect": "active",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "",
+				"rect": "active",
 			},
 			"vcda": {
 				"title": "Vice Chancellor for University Development and Alumni Relations",

@@ -4,17 +4,10 @@
 	 viewBox="0 0 1740.1 949.8" style="enable-background:new 0 0 1740.1 949.8;" xml:space="preserve">
 <style type="text/css">
 	.st1{fill:none;}
-	.st2{font-family:'Helvetica-Bold';}
-	.st3{font-size:17;}
-	.st4{font-size:24;}
-	.st5{font-size:23;}
-	.st6{font-size:21;}
-	.st7{font-size:16;}
-	.st8{font-family:'Helvetica';}
-	.st9{font-size:22;}
-	.st10{fill:#B2C9FF;}
-	.st11{fill:none;stroke:#E5E5E5;stroke-width:2;stroke-miterlimit:10;}
-	.st12{fill:none;stroke:#E5E5E5;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:6.1246,6.1246;}
+	.st8{fill:#F0F0F0;}
+	.st12{fill:#B2C9FF;}
+	.st13{fill:none;stroke:#A9A9A9;stroke-width:3;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#A9A9A9;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:6.1246,6.1246;}
 </style>
 <g id="boxes">
 	<g id="chan">
@@ -139,41 +132,42 @@
 	</g>
 </g>
 <g id="legend">
-	<rect x="1465.7" y="128.5" class="st1" width="223.7" height="36.6"/>
-	<text transform="matrix(1 0 0 1 1465.724 140.0449)"><tspan x="0" y="0" class="st8 st7">Administrator has announced </tspan><tspan x="0" y="19.2" class="st8 st7">resignation</tspan></text>
-	<text transform="matrix(1 0 0 1 1436.2852 147.5169)" class="st8 st9">*</text>
-	<rect x="1465.7" y="176.3" class="st1" width="223.7" height="36.6"/>
-	<text transform="matrix(1 0 0 1 1465.724 187.8474)"><tspan x="0" y="0" class="st8 st7">Position has seen change </tspan><tspan x="0" y="19.2" class="st8 st7">since April 2015</tspan></text>
-	<rect x="1432.4" y="173.3" class="st10" width="19.7" height="19.7"/>
+	<rect x="1423.1" y="107.9" class="st8" width="290.2" height="126.2"/>
+	<rect x="1469.7" y="129.5" class="st1" width="223.7" height="36.6"/>
+	<text transform="matrix(1 0 0 1 1469.724 142.4829)"><tspan x="0" y="0" class="st9 st10">Administrator has</tspan><tspan x="0" y="21.6" class="st9 st10">announced resignation</tspan></text>
+	<text id="legend-star" transform="matrix(1 0 0 1 1440.2852 154.5169)" class="st9 st11">*</text>
+	<rect x="1469.7" y="177.3" class="st1" width="223.7" height="36.6"/>
+	<text transform="matrix(1 0 0 1 1469.724 190.2854)"><tspan x="0" y="0" class="st9 st10">Position has seen</tspan><tspan x="0" y="21.6" class="st9 st10">change since April 2015</tspan></text>
+	<rect x="1436.4" y="174.3" class="st12" width="19.7" height="19.7"/>
 </g>
 <g id="lines">
-	<line class="st11" x1="1292.4" y1="387.9" x2="1275.3" y2="387.9"/>
-	<line class="st11" x1="1292.4" y1="509.9" x2="1275.3" y2="509.9"/>
-	<line class="st11" x1="1257.5" y1="557.8" x2="1275.3" y2="557.8"/>
-	<line class="st11" x1="1292.4" y1="634.1" x2="1275.3" y2="634.1"/>
-	<line class="st11" x1="1257.5" y1="683.5" x2="1275.3" y2="683.5"/>
-	<line class="st11" x1="1292.4" y1="758.6" x2="1275.3" y2="758.6"/>
-	<line class="st11" x1="816" y1="116.1" x2="816" y2="135.1"/>
-	<line class="st11" x1="800.9" y1="302" x2="832" y2="302"/>
-	<line class="st11" x1="832" y1="415.9" x2="800.7" y2="415.9"/>
-	<polyline class="st11" points="800.7,543.8 816,543.8 816,234.1 	"/>
-	<polyline class="st11" points="631.6,66.1 411.2,66.1 411.2,629.9 385.6,629.9 	"/>
-	<line class="st11" x1="411.2" y1="150.7" x2="385.6" y2="150.7"/>
-	<line class="st11" x1="411.2" y1="263.5" x2="385.6" y2="263.5"/>
-	<line class="st11" x1="411.2" y1="389" x2="385.6" y2="389"/>
-	<line class="st11" x1="411.2" y1="511.4" x2="385.6" y2="511.4"/>
-	<polyline class="st11" points="385.6,651.8 468.2,651.8 468.2,874.8 448.2,874.8 	"/>
-	<line class="st11" x1="1005.9" y1="184.1" x2="988.2" y2="184.1"/>
+	<line class="st13" x1="1292.4" y1="387.9" x2="1275.3" y2="387.9"/>
+	<line class="st13" x1="1292.4" y1="509.9" x2="1275.3" y2="509.9"/>
+	<line class="st13" x1="1257.5" y1="557.8" x2="1275.3" y2="557.8"/>
+	<line class="st13" x1="1292.4" y1="634.1" x2="1275.3" y2="634.1"/>
+	<line class="st13" x1="1257.5" y1="683.5" x2="1275.3" y2="683.5"/>
+	<line class="st13" x1="1292.4" y1="758.6" x2="1275.3" y2="758.6"/>
+	<line class="st13" x1="816" y1="116.1" x2="816" y2="135.1"/>
+	<line class="st13" x1="800.9" y1="302" x2="832" y2="302"/>
+	<line class="st13" x1="832" y1="415.9" x2="800.7" y2="415.9"/>
+	<polyline class="st13" points="800.7,543.8 816,543.8 816,234.1 	"/>
+	<polyline class="st13" points="631.6,66.1 411.2,66.1 411.2,629.9 385.6,629.9 	"/>
+	<line class="st13" x1="411.2" y1="150.7" x2="385.6" y2="150.7"/>
+	<line class="st13" x1="411.2" y1="263.5" x2="385.6" y2="263.5"/>
+	<line class="st13" x1="411.2" y1="389" x2="385.6" y2="389"/>
+	<line class="st13" x1="411.2" y1="511.4" x2="385.6" y2="511.4"/>
+	<polyline class="st13" points="385.6,651.8 468.2,651.8 468.2,874.8 448.2,874.8 	"/>
+	<line class="st13" x1="1005.9" y1="184.1" x2="988.2" y2="184.1"/>
 	<g>
 		<g>
-			<line class="st11" x1="631.6" y1="184.1" x2="628.6" y2="184.1"/>
-			<line class="st12" x1="622.5" y1="184.1" x2="417.3" y2="184.1"/>
-			<line class="st11" x1="414.2" y1="184.1" x2="411.2" y2="184.1"/>
+			<line class="st13" x1="631.6" y1="184.1" x2="628.6" y2="184.1"/>
+			<line class="st14" x1="622.5" y1="184.1" x2="417.3" y2="184.1"/>
+			<line class="st13" x1="414.2" y1="184.1" x2="411.2" y2="184.1"/>
 		</g>
 	</g>
-	<line class="st11" x1="487.2" y1="685.3" x2="468.2" y2="685.3"/>
-	<line class="st11" x1="448.2" y1="754.8" x2="468.2" y2="754.8"/>
-	<line class="st11" x1="487.2" y1="809.2" x2="468.2" y2="809.2"/>
-	<polyline class="st11" points="988.2,66.1 1405.5,66.1 1405.5,283.8 1275.3,283.8 1275.3,809.2 1257.5,809.2 	"/>
+	<line class="st13" x1="487.2" y1="685.3" x2="468.2" y2="685.3"/>
+	<line class="st13" x1="448.2" y1="754.8" x2="468.2" y2="754.8"/>
+	<line class="st13" x1="487.2" y1="809.2" x2="468.2" y2="809.2"/>
+	<polyline class="st13" points="988.2,66.1 1405.5,66.1 1405.5,283.8 1275.3,283.8 1275.3,809.2 1257.5,809.2 	"/>
 </g>
 </svg>
