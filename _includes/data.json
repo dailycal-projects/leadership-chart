@@ -386,7 +386,6 @@
 			}
 		}	
 	},
-
 	"4": {
 		"desc": "Vice Chancellor for Equity and Inclusion Gibor Basri resigns. Na’ilah Nasir succeeds him.",
 		"date": "September 2015",
@@ -516,7 +515,7 @@
 	},
 
 	"5": {
-		"desc": "Vice Chancellor for University Relations Scott Biddy becomes Vice Chancellor. Julie Hooper is appointed to fill his vacancy in December.",
+		"desc": "Vice Chancellor for University Relations Scott Biddy becomes vice chancellor. Julie Hooper is appointed to fill his vacancy in December.",
 		"link": "http://www.dailycal.org/2015/12/16/campus-appoints-vice-chancellor-university-development-alumni-relations/",
 		"date": "October 2015",
 		"positions": {
@@ -900,7 +899,7 @@
 	},
 
 	"8": {
-		"desc": "Vice Provost Strategic Academic and Facilities Planning Andrew Szeri resigns after widespread criticism of the Office of Strategic Initiatives, which sought to stabilize campus’s $150 million annual structural deficit.",
+		"desc": "Vice Provost for Strategic Academic and Facilities Planning Andrew Szeri resigns after widespread criticism of the Office of Strategic Initiatives, which sought to stabilize campus’s $150 million annual structural deficit.",
 		"date": "June 2016",
 		"link": "http://www.dailycal.org/2016/06/19/andrew-szeri-resigns-position-vice-provost-strategic-academic-facilities-planning/",
 		"positions": {
@@ -1283,7 +1282,7 @@
 	},
 
 	"11": {
-		"desc": "Chancellor Nicholas Dirks resigns amid several high-profile controversies. UC President Napolitano plans to nominate a new chancellor this spring.",
+		"desc": "Chancellor Nicholas Dirks resigns amid several high-profile controversies. UC President Janet Napolitano plans to nominate a new chancellor this spring.",
 		"date": "August 2016",
 		"link": "http://www.dailycal.org/2016/08/16/chancellor-dirks-to-resign-after-end-of-this-academic-school-year/",
 		"positions": {
