@@ -10,7 +10,6 @@ title: Tumult at the Top
       <p><b>Related story:</b> <a href="http://www.dailycal.org/2016/11/20/administrative-exodus/">Administrative Exodus</a></p>
     </div>
   </div>
-
   <div class="row">
     <div style="text-align: right;" class="col-xs-2">
       <btn id="prev-btn" class="btn btn-secondary disabled" onclick="previous()">&lsaquo;</btn>
@@ -22,24 +21,19 @@ title: Tumult at the Top
       <btn id="next-btn" class="btn btn-secondary" onclick="next()">&rsaquo;</btn>
     </div>
   </div>
-
   <div class="row">
     <div class="col-md-12">
       {% include chart.svg %}
     </div>
   </div>
-
   <div class="row">
     <div class="col-md-4">
       <hr>
       <p>Text credit: <a href="http://www.dailycal.org/author/aiscoe/">Adam Iscoe</a></p>
     </div>
   </div>
-    
   </div>
-
 </div>
-
 
 <script type="text/javascript">
 /*
@@ -92,14 +86,15 @@ var wrapText = function(texts, width, lineHeight) {
 }
 
 // Globals
-
-var data = {% include data.json %}
-var highlightColor = '#f39075',
+var data = {% include data.json %};
+var currentIndex = 1,
+    frameCount = Object.keys(data).length,
+    highlightColor = '#f39075',
     activeColor = '#B2C9FF',
     defaultColor = '#fffaed';
 
-function initialize() {
-  _.forEach(data["1"]['positions'], function(val, key) {
+(function initialize() {
+  _.forEach(data['1']['positions'], function(val, key) {
 
     d3.select('#' + key + '-title').attr('display','none');
     d3.select('#' + key + '-name').attr('display','none');
@@ -116,7 +111,7 @@ function initialize() {
       .append('text')
       .attr('x',x+20)
       .attr('y',y+30)
-      .attr('id', key + '-title-2')
+      .attr('id', key + '-title')
       .classed('text-bold', true);
 
     wrapText(title, width, '30px');
@@ -125,35 +120,27 @@ function initialize() {
       .append('text')
       .attr('x',x+20)
       .attr('y',y+height-20)
-      .attr('id', key + '-name-2');
+      .attr('id', key + '-name');
   });
-}
-
-initialize();
+})();
 
 function loadFrame(index) {
-  // Update labels
-  $('#current-index').html(index);
   var date = data[index.toString()]['date'];
 
+  // Build description
   var html = ''
   if (date) {
     html = html + '<b>' + date + ':</b> ';
   }
-
   html = html + data[index.toString()]['desc'];
-
   var link = data[index.toString()]['link'];
   if (link) {
     html = html + ' <a target="_blank" href="' + link + '">Read more &raquo;</a>';
   }
-  
+  //Update description 
   $('#desc').html(html);
 
   _.forEach(data[index.toString()]['positions'], function(val, key) {
-
-    d3.select('#' + key + '-title').attr('display','none');
-    d3.select('#' + key + '-name').attr('display','none');
     
     var rect = d3.select('#' + key + '-rect');
     var width = rect.attr('width') - 40;
@@ -162,12 +149,11 @@ function loadFrame(index) {
     var y = parseFloat(rect.attr('y'));
     var height = parseFloat(rect.attr('height'));
 
-    var title = d3.select('#' + key + '-title-2')
+    var title = d3.select('#' + key + '-title')
       .text(val['title']);
-
     wrapText(title, width, 20);
 
-    var name = d3.select('#' + key + '-name-2')
+    var name = d3.select('#' + key + '-name')
       .text(val['name']);
 
     if (val['rect'] == 'highlight') {
@@ -185,33 +171,13 @@ function loadFrame(index) {
       rect.attr('opacity', 1);
       title.attr('fill', '#000');
     }
-
   });
-  return true;
 }
 
-var currentIndex = 1;
-var frameCount = Object.keys(data).length;
-$("#total-frames").html(frameCount);
-
+// Load the first frame
 loadFrame(currentIndex);
 
-var prevBtn = $('#prev-btn');
-var nextBtn = $('#next-btn');
-
-function enableButtons() {
-  if (currentIndex == 1) {
-    prevBtn.addClass('disabled');
-    nextBtn.removeClass('disabled');
-  } else if (currentIndex == frameCount) {
-    prevBtn.removeClass('disabled');
-    nextBtn.addClass('disabled');
-  } else {
-    prevBtn.removeClass('disabled');
-    nextBtn.removeClass('disabled');
-  }
-}
-
+// Functions to advance left and right
 function previous() {
   if (currentIndex > 1) {
     currentIndex = currentIndex - 1;
@@ -228,10 +194,27 @@ function next() {
   enableButtons();
 }
 
+// Deal with button styles
+function enableButtons() {
+  var prevBtn = $('#prev-btn');
+  var nextBtn = $('#next-btn');
+  if (currentIndex == 1) {
+    prevBtn.addClass('disabled');
+    nextBtn.removeClass('disabled');
+  } else if (currentIndex == frameCount) {
+    prevBtn.removeClass('disabled');
+    nextBtn.addClass('disabled');
+  } else {
+    prevBtn.removeClass('disabled');
+    nextBtn.removeClass('disabled');
+  }
+}
+
+// Scroll to description text on button lick
 $(".btn").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".desc-wrapper").offset().top
-    }, 1000);
+  $('html, body').animate({
+      scrollTop: $(".desc-wrapper").offset().top
+  }, 500);
 })
 
 // Set up keyboard event listener
@@ -248,5 +231,4 @@ function checkKey(e) {
        next();
     }
 }
-
 </script>
