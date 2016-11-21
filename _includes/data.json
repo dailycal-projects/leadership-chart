@@ -1,6 +1,6 @@
 {
 	"1": {
-		"desc": "UC Berkeley has seen changes in more than half of the chancellor's cabinet — 13 top administrative positions — since April 2015. Several positions are currently vacant as key administrators have announced their resignations.",
+		"desc": "UC Berkeley has seen changes in more than half of the chancellor's cabinet — 14 top administrative positions — since April 2015. Several positions are currently vacant as key administrators have announced their resignations.",
 		"date": "",
 		"link": "",
 		"positions": {
@@ -117,7 +117,7 @@
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
 				"name": "",
-				"rect": "",
+				"rect": "active",
 			},
 			"vcit": {
 				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
@@ -1282,6 +1282,134 @@
 	},
 
 	"11": {
+		"desc": "Assistant Vice Chancellor for Human Resources Jeannine Raymond announces her retirement. Jo Mackness will hold the interim position effective January 2017.",
+		"date": "August 2016",
+		"link": "http://www.dailycal.org/2016/08/16/jeannine-raymond-retire-assistant-vice-chancellor-human-resources/",
+		"positions": {
+			"chan": {
+				"title": "Chancellor",
+				"name": "Nicholas Dirks",
+				"rect": "",
+			},
+			"evcp": {
+				"title": "Interim Executive Vice Chancellor and Provost",
+				"name": "Carol Christ",
+				"rect": "active",
+			},
+			"aevp": {
+				"title": "Associate EVCP and Chief of Staff",
+				"name": "Phyllis Hoffman",
+				"rect": "",
+			},
+			"vcue": {
+				"title": "Vice Chancellor for Undergraduate Education",
+				"name": "Catherine Koshland",
+				"rect": "",
+			},
+			"vcei": {
+				"title": "Vice Chancellor for Equity and Inclusion",
+				"name": "Na'ilah Nasir",
+				"rect": "active",
+			},
+			"dgdv": {
+				"title": "Dean, Graduate Division",
+				"name": "Fiona Doyle",
+				"rect": "",
+			},
+			"vpft": {
+				"title": "Vice Provost for the Faculty",
+				"name": "Benjamin Hermalin",
+				"rect": "active",
+			},
+			"vpas": {
+				"title": "Vice Provost for Academic and Space Planning",
+				"name": "Tsu-Jae Liu",
+				"rect": "active",
+			},
+			"vchn": {
+				"title": "Vice Chancellor",
+				"name": "Scott Biddy",
+				"rect": "active",
+			},
+			"vcda": {
+				"title": "Vice Chancellor for University Development and Alumni Relations",
+				"name": "Julie Hooper",
+				"rect": "active",
+			},
+			"vcrs": {
+				"title": "Vice Chancellor for Research",
+				"name": "Paul Alivisatos",
+				"rect": "active",
+			},
+			"vcsa": {
+				"title": "Vice Chancellor for Student Affairs",
+				"name": "Harry Le Grande*",
+				"rect": "active",
+			},
+			"vcaf": {
+				"title": "Vice Chancellor for Administration and Finance",
+				"name": "",
+				"rect": "active",
+			},
+			"cccs": {
+				"title": "Associate Chancellor/Chief of Staff",
+				"name": "Nils Gilman",
+				"rect": "",
+			},
+			"cerc": {
+				"title": "Associate Chancellor/Campus Chief Ethics, Risk and Compliance Officer",
+				"name": "Khira Griscavage",
+				"rect": "active",
+			},
+			"cccl": {
+				"title": "Chief Campus Counsel",
+				"name": "Christopher Patti",
+				"rect": "",
+			},
+			"vcgc": {
+				"title": "Assistant Chancellor for Government & Community Relations",
+				"name": "Christine Treadway",
+				"rect": "",
+			},
+			"vccp": {
+				"title": "Associate Vice Chancellor for Communications & Public Affairs",
+				"name": "Claire Holmes",
+				"rect": "",
+			},
+			"accp": {
+				"title": "Assistant Vice Chancellor for Communications & Public Affairs",
+				"name": "Dan Mogulof",
+				"rect": "",
+			},
+			"dica": {
+				"title": "Director, Intercollegiate Athletics",
+				"name": "Michael Williams",
+				"rect": "",
+			},
+			"vcre": {
+				"title": "Vice Chancellor for Real Estate",
+				"name": "Bob Lalanne",
+				"rect": "",
+			},
+			"vchr": {
+				"title": "Assistant Vice Chancellor for Human Resources",
+				"name": "Jeannine Raymond*",
+				"rect": "highlight",
+			},
+			"vcit": {
+				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
+				"name": "Larry Conrad",
+				"rect": "",
+			},
+			"vcfn": {
+				"title": "Associate Vice Chancellor & Chief Financial Officer",
+				"name": "Rosemarie Rae",
+				"rect": "",
+			}
+		}	
+	},
+
+	"12": {
 		"desc": "Chancellor Nicholas Dirks resigns amid several high-profile controversies. UC President Janet Napolitano plans to nominate a new chancellor this spring.",
 		"date": "August 2016",
 		"link": "http://www.dailycal.org/2016/08/16/chancellor-dirks-to-resign-after-end-of-this-academic-school-year/",
@@ -1393,8 +1521,8 @@
 			},
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
-				"name": "Jeannine Raymond",
-				"rect": "",
+				"name": "Jeannine Raymond*",
+				"rect": "active",
 			},
 			"vcit": {
 				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
@@ -1408,7 +1536,7 @@
 			}
 		}	
 	},
-	"12": {
+	"13": {
 		"desc": "Associate Vice Chancellor for Communications and Public Affairs Claire Holmes resigns. The position remains vacant.",
 		"date": "September 2016",
 		"link": "",
@@ -1520,8 +1648,8 @@
 			},
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
-				"name": "Jeannine Raymond",
-				"rect": "",
+				"name": "Jeannine Raymond*",
+				"rect": "active",
 			},
 			"vcit": {
 				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
@@ -1535,7 +1663,7 @@
 			}
 		}	
 	},
-	"13": {
+	"14": {
 		"desc": "Vice Chancellor for Real Estate Bob Lalanne resigns after his position is eliminated by campus officials.",
 		"date": "October 2016",
 		"link": "http://www.dailycal.org/2016/10/24/campus-leadership-prompted-vice-chancellor-bob-lalannes-resignation/",
@@ -1647,8 +1775,8 @@
 			},
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
-				"name": "Jeannine Raymond",
-				"rect": "",
+				"name": "Jeannine Raymond*",
+				"rect": "active",
 			},
 			"vcit": {
 				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
@@ -1662,7 +1790,7 @@
 			}
 		}	
 	},
-	"14": {
+	"15": {
 		"desc": "Vice Chancellor Scott Biddy’s resignation, which has yet to be announced to the campus at large, was confirmed in an email to The Daily Californian. He plans to depart campus September 2017.",
 		"date": "",
 		"link": "",
@@ -1774,8 +1902,8 @@
 			},
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
-				"name": "Jeannine Raymond",
-				"rect": "",
+				"name": "Jeannine Raymond*",
+				"rect": "active",
 			},
 			"vcit": {
 				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
@@ -1789,7 +1917,7 @@
 			}
 		}	
 	},
-	"15": {
+	"16": {
 		"desc": "“We’re all waiting to see what happens when the dust settles,” said campus public policy professor Michael O’Hare. “Are we going to be happier? No one knows.”",
 		"date": "",
 		"link": "",
@@ -1901,8 +2029,8 @@
 			},
 			"vchr": {
 				"title": "Assistant Vice Chancellor for Human Resources",
-				"name": "Jeannine Raymond",
-				"rect": "",
+				"name": "Jeannine Raymond*",
+				"rect": "active",
 			},
 			"vcit": {
 				"title": "Associate Vice Chancellor for IT & Chief Information Officer",
