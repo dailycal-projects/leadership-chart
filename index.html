@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Change in the Cabinet
+title: Tumult at the Top
 ---
 <div class="container graphic-container">
   <div class="row graphic-top">
     <div class="col-md-8 offset-md-2">
       <h1>{{ page.title }}</h1>
       <p class="byline">By <a href="http://www.dailycal.org/author/schinoy">SAHIL CHINOY</a> &middot; November 21, 2016</p>
-      <p><b>Related story:</b> <a href="">Administrative Exodus</a></p>
+      <p><b>Related story:</b> <a href="http://www.dailycal.org/2016/11/20/administrative-exodus/">Administrative Exodus</a></p>
     </div>
   </div>
 
@@ -94,20 +94,9 @@ var wrapText = function(texts, width, lineHeight) {
 // Globals
 
 var data = {% include data.json %}
-var isMobile = false;
 var highlightColor = '#f39075',
     activeColor = '#B2C9FF',
     defaultColor = '#fffaed';
-
-function checkMobile() {
-  if ($(window).width() < 800) {
-    isMobile = true;
-  } else {
-    isMobile = false;
-  }
-}
-checkMobile();
-$(window).onresize = checkMobile
 
 function initialize() {
   _.forEach(data["1"]['positions'], function(val, key) {
@@ -173,33 +162,28 @@ function loadFrame(index) {
     var y = parseFloat(rect.attr('y'));
     var height = parseFloat(rect.attr('height'));
 
-    // No text on mobile
-    if (!isMobile) {
-      var title = d3.select('#' + key + '-title-2')
-        .text(val['title'])
+    var title = d3.select('#' + key + '-title-2')
+      .text(val['title']);
 
-      wrapText(title, width, 20);
+    wrapText(title, width, 20);
 
-      var name = d3.select('#' + key + '-name-2')
-        .text(val['name'])
-    } else {
-      d3.select('#legend').attr('display','none');
-    }
+    var name = d3.select('#' + key + '-name-2')
+      .text(val['name']);
 
     if (val['rect'] == 'highlight') {
-      rect.transition().duration(800).attr('fill', highlightColor);
+      rect.transition().duration(1000).attr('fill', highlightColor);
     } else if (val['rect'] == 'active') {
-      rect.transition().duration(800).attr('fill', activeColor);
+      rect.transition().duration(1000).attr('fill', activeColor);
     } else {
       rect.attr('fill', defaultColor).attr('opacity', 1);
     }
 
     if (val['rect'] == 'inactive') {
       rect.attr('opacity', 0.1);
-      if(!isMobile) { title.attr('fill', '#e5e5e5'); }
+      title.attr('fill', '#e5e5e5');
     } else {
       rect.attr('opacity', 1);
-      if(!isMobile) { title.attr('fill', '#000'); }
+      title.attr('fill', '#000');
     }
 
   });
@@ -243,6 +227,12 @@ function next() {
   }
   enableButtons();
 }
+
+$(".btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".desc-wrapper").offset().top
+    }, 1000);
+})
 
 // Set up keyboard event listener
 document.onkeydown = checkKey;

@@ -3,171 +3,123 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1740.1 949.8" style="enable-background:new 0 0 1740.1 949.8;" xml:space="preserve">
 <style type="text/css">
-	.st1{fill:none;}
-	.st8{fill:#F0F0F0;}
-	.st12{fill:#B2C9FF;}
-	.st13{fill:none;stroke:#A9A9A9;stroke-width:3;stroke-miterlimit:10;}
-	.st14{fill:none;stroke:#A9A9A9;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:6.1246,6.1246;}
+	.st1{fill:#F0F0F0;}
+	.st2{fill:none;}
+	.st6{fill:#B2C9FF;}
+	.st7{fill:none;stroke:#A9A9A9;stroke-width:3;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#A9A9A9;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:6.1246,6.1246;}
 </style>
 <g id="boxes">
 	<g id="chan">
 		<rect id="chan-rect" x="631.6" y="16.1" class="st0" width="356.6" height="100"/>
-		<rect x="655.6" y="29.6" class="st1" width="301.1" height="53"/>
-		<text id="chan-title" transform="matrix(1 0 0 1 655.5916 41.8206)" class="st2 st3">Chancellor</text>
 	</g>
 	<g id="evcp">
 		<rect id="evcp-rect" x="631.6" y="134.1" class="st0" width="356.6" height="100"/>
-		<rect x="655.6" y="147.6" class="st1" width="301.1" height="53"/>
-		<text id="evcp-title" transform="matrix(1 0 0 1 655.5916 159.8353)"><tspan x="0" y="0" class="st2 st3">Executive Vice Chancellor and </tspan><tspan x="0" y="20.4" class="st2 st3">Provost</tspan></text>
 	</g>
 	<g id="aevp">
 		<rect id="aevp-rect" x="1005.9" y="134.1" class="st0" width="356.6" height="100"/>
-		<rect x="1029.9" y="147.6" class="st1" width="301.1" height="53"/>
-		<text id="aevp-title" transform="matrix(1 0 0 1 1029.8662 159.8353)" class="st2 st3">Associate EVCP and Chief of Staff</text>
 	</g>
 	<g id="vcue">
 		<rect id="vcue-rect" x="444.2" y="252" class="st0" width="356.6" height="100"/>
-		<rect x="468.2" y="263.5" class="st1" width="301.1" height="53"/>
-		<text id="vcue-title" transform="matrix(1 0 0 1 468.1583 280.7167)"><tspan x="0" y="0" class="st2 st4">Vice Chancellor for </tspan><tspan x="0" y="28.8" class="st2 st4">Undergraduate Education</tspan></text>
 	</g>
 	<g id="vcei">
 		<rect id="vcei-rect" x="444.2" y="372.9" class="st0" width="356.6" height="100"/>
-		<rect x="468.2" y="387.8" class="st1" width="301.1" height="53"/>
-		<text id="vcei-title" transform="matrix(1 0 0 1 468.1823 405.0116)"><tspan x="0" y="0" class="st2 st4">Vice Chancellor for Equity </tspan><tspan x="0" y="28.8" class="st2 st4">and Inclusion</tspan></text>
 	</g>
 	<g id="dgdv">
 		<rect id="dgdv-rect" x="444.2" y="493.8" class="st0" width="356.6" height="100"/>
-		<rect x="468.2" y="504.3" class="st1" width="301.1" height="53"/>
-		<text id="dgdv-title" transform="matrix(1 0 0 1 468.1583 516.5224)" class="st2 st3">Dean, Graduate Division</text>
 	</g>
 	<g id="vpft">
 		<rect id="vpft-rect" x="832" y="252" class="st0" width="356.6" height="100"/>
-		<rect x="856" y="263.5" class="st1" width="301.1" height="53"/>
-		<text id="vpft-title" transform="matrix(1 0 0 1 856.0253 280.7167)"><tspan x="0" y="0" class="st2 st4">Vice Provost for the </tspan><tspan x="0" y="28.8" class="st2 st4">Faculty</tspan></text>
 	</g>
 	<g id="vpas">
 		<rect id="vpas-rect" x="832" y="371.9" class="st0" width="356.6" height="100"/>
-		<rect x="856" y="386.7" class="st1" width="301.1" height="53"/>
-		<text id="vpas-title" transform="matrix(1 0 0 1 856.0253 403.2751)"><tspan x="0" y="0" class="st2 st5">Vice Provost for Academic </tspan><tspan x="0" y="27.6" class="st2 st5">and Space Planning</tspan></text>
 	</g>
 	<g id="vchn">
 		<rect id="vchn-rect" x="29" y="98.1" class="st0" width="356.6" height="100"/>
-		<rect x="53" y="124.2" class="st1" width="301.1" height="53"/>
-		<text id="vchn-title" transform="matrix(1 0 0 1 52.992 141.4446)" class="st2 st4">Vice Chancellor</text>
 	</g>
 	<g id="vcda">
 		<rect id="vcda-rect" x="29" y="218.5" class="st0" width="356.6" height="100"/>
-		<rect x="53" y="230.8" class="st1" width="301.1" height="53"/>
-		<text id="vcda-title" transform="matrix(1 0 0 1 52.992 245.8922)"><tspan x="0" y="0" class="st2 st6">Vice Chancellor, Development </tspan><tspan x="0" y="25.2" class="st2 st6">&amp; Alumni Relations</tspan></text>
 	</g>
 	<g id="vcrs">
 		<rect id="vcrs-rect" x="29" y="339" class="st0" width="356.6" height="100"/>
-		<rect x="53" y="362.5" class="st1" width="301.1" height="53"/>
-		<text id="vcrs-title" transform="matrix(1 0 0 1 52.9919 377.5595)" class="st2 st6">Vice Chancellor, Research</text>
 	</g>
 	<g id="vcsa">
 		<rect id="vcsa-rect" x="29" y="459.4" class="st0" width="356.6" height="100"/>
-		<rect x="51.5" y="472.3" class="st1" width="301.1" height="53"/>
-		<text id="vcsa-title" transform="matrix(1 0 0 1 51.4842 487.4488)"><tspan x="0" y="0" class="st2 st6">Vice Chancellor, Student </tspan><tspan x="0" y="25.2" class="st2 st6">Affairs</tspan></text>
 	</g>
 	<g id="cccs">
 		<rect id="cccs-rect" x="1292.4" y="337.5" class="st0" width="356.6" height="100"/>
-		<rect x="1316.4" y="348.5" class="st1" width="301.1" height="53"/>
-		<text id="cccs-title" transform="matrix(1 0 0 1 1316.391 360.77)" class="st2 st3">Associate Chancellor/Chief of Staff</text>
 	</g>
 	<g id="cerc">
 		<rect id="cerc-rect" x="1292.4" y="461.4" class="st0" width="356.6" height="100"/>
-		<rect x="1316.4" y="473.4" class="st1" width="301.1" height="53"/>
-		<text id="cerc-title" transform="matrix(1 0 0 1 1316.3909 485.6206)"><tspan x="0" y="0" class="st2 st3">Associate Chancellor/ Campus Chief </tspan><tspan x="0" y="20.4" class="st2 st3">Ethics, Risk and Compliance Officer</tspan></text>
 	</g>
 	<g id="cccl">
 		<rect id="cccl-rect" x="900.9" y="508.4" class="st0" width="356.6" height="100"/>
-		<rect x="924.9" y="520.4" class="st1" width="301.1" height="53"/>
-		<text id="cccl-title" transform="matrix(1 0 0 1 924.9312 532.5807)" class="st2 st3">Chief Campus Counsel</text>
 	</g>
 	<g id="vcgc">
 		<rect id="vcgc-rect" x="1292.4" y="585.3" class="st0" width="356.6" height="100"/>
-		<rect x="1314.9" y="596.8" class="st1" width="301.1" height="53"/>
-		<text id="vcgc-title" transform="matrix(1 0 0 1 1314.8832 609.0438)"><tspan x="0" y="0" class="st2 st3">Assistant Chancellor, Government &amp; </tspan><tspan x="0" y="20.4" class="st2 st3">Community Relations</tspan></text>
 	</g>
 	<g id="vccp">
 		<rect id="vccp-rect" x="900.9" y="633.5" class="st0" width="356.6" height="100"/>
-		<rect x="924.9" y="645" class="st1" width="301.1" height="53"/>
-		<text id="vccp-title" transform="matrix(1 0 0 1 924.9312 657.2167)"><tspan x="0" y="0" class="st2 st3">Associate Vice Chancellor, </tspan><tspan x="0" y="20.4" class="st2 st3">Communications &amp; Public Affairs</tspan></text>
 	</g>
 	<g id="accp">
 		<rect id="accp-rect" x="900.9" y="758.6" class="st0" width="356.6" height="100"/>
-		<rect x="924.9" y="772.1" class="st1" width="301.1" height="53"/>
-		<text id="accp-title" transform="matrix(1 0 0 1 924.9312 784.3497)"><tspan x="0" y="0" class="st2 st3">Assistant Vice Chancellor, </tspan><tspan x="0" y="20.4" class="st2 st3">Communications &amp; Public Affairs</tspan></text>
 	</g>
 	<g id="dica">
 		<rect id="dica-rect" x="1292.4" y="709.2" class="st0" width="356.6" height="100"/>
-		<rect x="1314.9" y="722.7" class="st1" width="301.1" height="53"/>
-		<text id="dica-title" transform="matrix(1 0 0 1 1314.8833 734.9637)" class="st2 st3">Director, Intercollegiate Athletics</text>
 	</g>
 	<g id="vcaf">
 		<rect id="vcaf-rect" x="29" y="579.9" class="st0" width="356.6" height="100"/>
-		<rect x="51.5" y="592.8" class="st1" width="301.1" height="53"/>
-		<text id="vcaf-title" transform="matrix(1 0 0 1 51.4842 607.8992)"><tspan x="0" y="0" class="st2 st6">Vice Chancellor, </tspan><tspan x="0" y="25.2" class="st2 st6">Administration and Finance</tspan></text>
 	</g>
 	<g id="vcre">
 		<rect id="vcre-rect" x="487.2" y="638.8" class="st0" width="356.6" height="100"/>
-		<rect x="509.7" y="651.8" class="st1" width="301.1" height="53"/>
-		<text id="vcre-title" transform="matrix(1 0 0 1 509.6746 666.8686)"><tspan x="0" y="0" class="st2 st6">Vice Chancellor for Real </tspan><tspan x="0" y="25.2" class="st2 st6">Estate</tspan></text>
 	</g>
 	<g id="vchr">
 		<rect id="vchr-rect" x="487.2" y="758.6" class="st0" width="356.6" height="100"/>
-		<rect x="509.7" y="771.6" class="st1" width="301.1" height="53"/>
-		<text id="vchr-title" transform="matrix(1 0 0 1 509.6505 786.6646)"><tspan x="0" y="0" class="st2 st6">Assistant Vice Chancellor, </tspan><tspan x="0" y="25.2" class="st2 st6">Human Resources</tspan></text>
 	</g>
 	<g id="vcit">
 		<rect id="vcit-rect" x="91.6" y="704.8" class="st0" width="356.6" height="100"/>
-		<rect x="114.1" y="717.7" class="st1" width="301.1" height="53"/>
-		<text id="vcit-title" transform="matrix(1 0 0 1 114.1075 729.2158)"><tspan x="0" y="0" class="st2 st7">Associate Vice Chancellor, Information </tspan><tspan x="0" y="19.2" class="st2 st7">Technology &amp; Chief Information Officer</tspan></text>
 	</g>
 	<g id="vcfn">
 		<rect id="vcfn-rect" x="91.6" y="824.8" class="st0" width="356.6" height="100"/>
-		<rect x="114.1" y="837.7" class="st1" width="301.1" height="53"/>
-		<text id="vcfn-title" transform="matrix(1 0 0 1 114.1075 849.2158)"><tspan x="0" y="0" class="st2 st7">Associate Vice Chancellor &amp; Chief </tspan><tspan x="0" y="19.2" class="st2 st7">Financial Officer</tspan></text>
 	</g>
 </g>
 <g id="legend">
-	<rect x="1423.1" y="107.9" class="st8" width="290.2" height="126.2"/>
-	<rect x="1469.7" y="129.5" class="st1" width="223.7" height="36.6"/>
-	<text transform="matrix(1 0 0 1 1469.724 142.4829)"><tspan x="0" y="0" class="st9 st10">Administrator has</tspan><tspan x="0" y="21.6" class="st9 st10">announced resignation</tspan></text>
-	<text id="legend-star" transform="matrix(1 0 0 1 1440.2852 154.5169)" class="st9 st11">*</text>
-	<rect x="1469.7" y="177.3" class="st1" width="223.7" height="36.6"/>
-	<text transform="matrix(1 0 0 1 1469.724 190.2854)"><tspan x="0" y="0" class="st9 st10">Position has seen</tspan><tspan x="0" y="21.6" class="st9 st10">change since April 2015</tspan></text>
-	<rect x="1436.4" y="174.3" class="st12" width="19.7" height="19.7"/>
+	<rect x="1423.1" y="107.9" class="st1" width="290.2" height="126.2"/>
+	<rect x="1469.7" y="129.5" class="st2" width="223.7" height="36.6"/>
+	<text transform="matrix(1 0 0 1 1469.724 142.4829)"><tspan x="0" y="0" class="st3 st4">Administrator has</tspan><tspan x="0" y="21.6" class="st3 st4">announced resignation</tspan></text>
+	<text id="legend-star" transform="matrix(1 0 0 1 1440.2852 154.5169)" class="st3 st5">*</text>
+	<rect x="1469.7" y="177.3" class="st2" width="223.7" height="36.6"/>
+	<text transform="matrix(1 0 0 1 1469.724 190.2854)"><tspan x="0" y="0" class="st3 st4">Position has seen</tspan><tspan x="0" y="21.6" class="st3 st4">change since April 2015</tspan></text>
+	<rect x="1436.4" y="174.3" class="st6" width="19.7" height="19.7"/>
 </g>
 <g id="lines">
-	<line class="st13" x1="1292.4" y1="387.9" x2="1275.3" y2="387.9"/>
-	<line class="st13" x1="1292.4" y1="509.9" x2="1275.3" y2="509.9"/>
-	<line class="st13" x1="1257.5" y1="557.8" x2="1275.3" y2="557.8"/>
-	<line class="st13" x1="1292.4" y1="634.1" x2="1275.3" y2="634.1"/>
-	<line class="st13" x1="1257.5" y1="683.5" x2="1275.3" y2="683.5"/>
-	<line class="st13" x1="1292.4" y1="758.6" x2="1275.3" y2="758.6"/>
-	<line class="st13" x1="816" y1="116.1" x2="816" y2="135.1"/>
-	<line class="st13" x1="800.9" y1="302" x2="832" y2="302"/>
-	<line class="st13" x1="832" y1="415.9" x2="800.7" y2="415.9"/>
-	<polyline class="st13" points="800.7,543.8 816,543.8 816,234.1 	"/>
-	<polyline class="st13" points="631.6,66.1 411.2,66.1 411.2,629.9 385.6,629.9 	"/>
-	<line class="st13" x1="411.2" y1="150.7" x2="385.6" y2="150.7"/>
-	<line class="st13" x1="411.2" y1="263.5" x2="385.6" y2="263.5"/>
-	<line class="st13" x1="411.2" y1="389" x2="385.6" y2="389"/>
-	<line class="st13" x1="411.2" y1="511.4" x2="385.6" y2="511.4"/>
-	<polyline class="st13" points="385.6,651.8 468.2,651.8 468.2,874.8 448.2,874.8 	"/>
-	<line class="st13" x1="1005.9" y1="184.1" x2="988.2" y2="184.1"/>
+	<line class="st7" x1="1292.4" y1="387.9" x2="1275.3" y2="387.9"/>
+	<line class="st7" x1="1292.4" y1="509.9" x2="1275.3" y2="509.9"/>
+	<line class="st7" x1="1257.5" y1="557.8" x2="1275.3" y2="557.8"/>
+	<line class="st7" x1="1292.4" y1="634.1" x2="1275.3" y2="634.1"/>
+	<line class="st7" x1="1257.5" y1="683.5" x2="1275.3" y2="683.5"/>
+	<line class="st7" x1="1292.4" y1="758.6" x2="1275.3" y2="758.6"/>
+	<line class="st7" x1="816" y1="116.1" x2="816" y2="135.1"/>
+	<line class="st7" x1="800.9" y1="302" x2="832" y2="302"/>
+	<line class="st7" x1="832" y1="415.9" x2="800.7" y2="415.9"/>
+	<polyline class="st7" points="800.7,543.8 816,543.8 816,234.1 	"/>
+	<polyline class="st7" points="631.6,66.1 411.2,66.1 411.2,629.9 385.6,629.9 	"/>
+	<line class="st7" x1="411.2" y1="150.7" x2="385.6" y2="150.7"/>
+	<line class="st7" x1="411.2" y1="263.5" x2="385.6" y2="263.5"/>
+	<line class="st7" x1="411.2" y1="389" x2="385.6" y2="389"/>
+	<line class="st7" x1="411.2" y1="511.4" x2="385.6" y2="511.4"/>
+	<polyline class="st7" points="385.6,651.8 468.2,651.8 468.2,874.8 448.2,874.8 	"/>
+	<line class="st7" x1="1005.9" y1="184.1" x2="988.2" y2="184.1"/>
 	<g>
 		<g>
-			<line class="st13" x1="631.6" y1="184.1" x2="628.6" y2="184.1"/>
-			<line class="st14" x1="622.5" y1="184.1" x2="417.3" y2="184.1"/>
-			<line class="st13" x1="414.2" y1="184.1" x2="411.2" y2="184.1"/>
+			<line class="st7" x1="631.6" y1="184.1" x2="628.6" y2="184.1"/>
+			<line class="st8" x1="622.5" y1="184.1" x2="417.3" y2="184.1"/>
+			<line class="st7" x1="414.2" y1="184.1" x2="411.2" y2="184.1"/>
 		</g>
 	</g>
-	<line class="st13" x1="487.2" y1="685.3" x2="468.2" y2="685.3"/>
-	<line class="st13" x1="448.2" y1="754.8" x2="468.2" y2="754.8"/>
-	<line class="st13" x1="487.2" y1="809.2" x2="468.2" y2="809.2"/>
-	<polyline class="st13" points="988.2,66.1 1405.5,66.1 1405.5,283.8 1275.3,283.8 1275.3,809.2 1257.5,809.2 	"/>
+	<line class="st7" x1="487.2" y1="685.3" x2="468.2" y2="685.3"/>
+	<line class="st7" x1="448.2" y1="754.8" x2="468.2" y2="754.8"/>
+	<line class="st7" x1="487.2" y1="809.2" x2="468.2" y2="809.2"/>
+	<polyline class="st7" points="988.2,66.1 1405.5,66.1 1405.5,283.8 1275.3,283.8 1275.3,809.2 1257.5,809.2 	"/>
 </g>
 </svg>
